@@ -5,18 +5,18 @@ Aplicação Laravel de drinks, consumindo a API CocktailDB.
 
 Rotas Site:
 
-GET / - Home Page
-GET /drink/{id} - Mostra um drink especifico
-GET|POST /search - Mostra o resultado de uma busca.
-
+- GET / - Home Page.
+- GET /drink/{id} - Mostra um drink especifico.
+- GET|POST /search - Pagina de busca.
+- POST /results - Pagina de resultados de uma busca.
 
 Rotas API: 
 
-GET: /favorite-drinks - Retorna todos os drinks favoritos
+- GET: /favorite-drinks - Retorna todos os drinks favoritos
 
-POST: /favorite-drinks - Salva um drink como favorito.
+- POST: /favorite-drinks - Salva um drink como favorito.
 
-DELETE: /favorite-drinks/{id} - Deleta um link pelo Id.
+- DELETE: /favorite-drinks/{id} - Deleta um link pelo Id.
 
 ## INSTRUÇÕES PARA TESTAR EM PRODUÇÃO
 
